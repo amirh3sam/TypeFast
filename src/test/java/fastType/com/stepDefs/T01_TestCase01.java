@@ -5,6 +5,7 @@ import fastType.com.utilities.BrowserUtils;
 import fastType.com.utilities.ConfigurationReader;
 import fastType.com.utilities.Driver;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -22,12 +23,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class T01_TestCase01 {
-
+    MainPage page = new MainPage();
 
     @Given("user is on type website")
     public void user_is_on_type_website() {
-        MainPage page = new MainPage();
+
         Driver.getDriver().get(ConfigurationReader.getProperty("baseUrl"));
+
+    }
+
+    @Then("user start typying")
+    public void user_start_typying() {
         int i = 0 ;
 
         while( i < 507){
