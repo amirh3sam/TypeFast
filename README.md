@@ -1,5 +1,5 @@
 # TypeFast
-![image][https://github.com/amirh3sam/TypeFast/issues/1#issue-1950952727](https://github.com/amirh3sam/TypeFast/issues/1#issue-1950952727)
+![image](https://github.com/amirh3sam/TypeFast/assets/69331074/75d608f0-26e2-430e-af1d-f3e8e764129c)
 --
 
 Hey Guys 
