@@ -1,5 +1,5 @@
 # TypeFast
-
+https://github.com/amirh3sam/TypeFast/issues/1#issue-1950952727
 --
 
 Hey Guys 
