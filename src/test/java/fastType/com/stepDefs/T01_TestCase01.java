@@ -25,8 +25,8 @@ import java.util.List;
 public class T01_TestCase01 {
     MainPage page = new MainPage();
 
-    @Given("user is on the learning how to type fast")
-    public void user_is_on_the_learning_how_to_type_fast() {
+    @Given("user is on the learning website how to type fast")
+    public void user_is_on_the_learning_website_how_to_type_fast() {
 
         Driver.getDriver().get(ConfigurationReader.getProperty("baseUrl"));
 
